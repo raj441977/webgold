@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+header {
+    font-family: "Exo 2", sans-serif;
+    height: 25px;
+    background: rgb(133, 0, 9);
+    background: linear-gradient(
+        90deg,
+        rgba(133, 0, 9, 1) 0%,
+        rgba(172, 30, 17, 1) 9%,
+        rgba(180, 36, 19, 1) 13%,
+        rgba(190, 44, 21, 1) 18%,
+        rgba(198, 50, 23, 1) 22%,
+        rgba(208, 58, 25, 1) 27%,
+        rgba(218, 66, 27, 1) 32%,
+        rgba(228, 74, 29, 1) 37%,
+        rgba(238, 82, 31, 1) 42%,
+        rgba(255, 95, 33, 1) 46%,
+        rgba(230, 76, 28, 1) 63%,
+        rgba(222, 70, 26, 1) 66%,
+        rgba(211, 62, 24, 1) 70%,
+        rgba(198, 51, 21, 1) 75%,
+        rgba(187, 42, 19, 1) 79%,
+        rgba(179, 36, 18, 1) 82%,
+        rgba(171, 30, 17, 1) 86%,
+        rgba(163, 23, 15, 1) 94%,
+        rgba(133, 0, 9, 1) 99%
+    );
+    border-top: 1px solid yellow;
+    border-bottom: 2px solid goldenrod;
+}
+
+.header-container {
+    color: white;
+    margin: auto;
+    height: 100%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+/* Brand logo styling */
+.brand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    font-size: 80%;
+}
+
+.brand-tagline {
+    font-size: 60%;
+}
+
+.my-3 {
+    margin: 0 3px;
+}
+
+/* user information styling */
+.user-info {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 65%;
+    margin-right: 30px;
+}
+
+/* action-bar styling */
+
+.action-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 75%;
+}
+
+.action-bar button {
+    margin-left: 15px;
+    height: 100%;
+    border: none;
+    background: none;
+    font-size: 90%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.user-balance {
+    display: flex;
+}
+.coin {
+    background-image: url('../images/Gold_coin_icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
