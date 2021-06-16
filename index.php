@@ -1,4 +1,3 @@
-<?php
 <!DOCTYPE html>
 <html lang="en" id="mybody">
     <head>
@@ -256,4 +255,3 @@
         </script>
     </body>
 </html>
-?>
