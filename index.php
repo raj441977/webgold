@@ -1,3 +1,4 @@
+<php echo 'Hello';?>
 <!DOCTYPE html>
 <html lang="en" id="mybody">
     <head>
@@ -255,3 +256,4 @@
         </script>
     </body>
 </html>
+<?php echo 'hello';?>
