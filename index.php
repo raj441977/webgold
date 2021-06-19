@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/style.css" />
 
         <title>GOLDWIN</title>
+        <style type="text/css">@viewport{width:640px;}</style>
     </head>
 
     <body>
@@ -263,12 +264,7 @@
             });*/
             
             
-            document.addEventListener("DOMContentLoaded", function(event){
-                var width = document.body.offsetWidth;
-                document.head.append('<style type="text/css"></style>');
-                var viewPortElement = document.head.children(':last');
-                viewPortElement.html('@viewport{width:' + width + 'px}');
-            });
+            
         </script>
     </body>
 </html>
