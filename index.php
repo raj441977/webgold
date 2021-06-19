@@ -256,7 +256,7 @@
             document.addEventListener("DOMContentLoaded", function(event) { 
                 //document.queryselector('body').style.zoom = 300%;
                 document.body.style.zoom = '3';
-                document.queryselector('body').style.height = window.screen.height;
+                document.body.style.height = window.screen.height;
                 //document.queryselector('body').style.transform.scaleY = (.333333);
             });
         </script>
