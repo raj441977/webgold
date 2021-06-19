@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/style.css" />
 
         <title>GOLDWIN</title>
-        <style type="text/css">@viewport{width:640px;}</style>
+        <style type="text/css">@viewport{width:640px;height:360px; zoom:3;}</style>
     </head>
 
     <body>
