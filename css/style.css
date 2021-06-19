@@ -11,8 +11,8 @@
     zoom
 }
 @media (min-width:920px){
-    body{
-        transform: scaleX(1.5) scaleY(1.5);
+    *{
+        transform: scaleX(2) scaleY(2);
     }
 }
 body {
