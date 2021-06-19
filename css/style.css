@@ -12,12 +12,8 @@
 }
 @media (min-width:1920px){
     html{
-        transform: scaleX(.333333);
-    }
-}
-@media (min-height:1080px){
-    html{
-        transform: scaleY(.333333);
+        /*transform: scaleX(.333333);*/
+        zoom: 300%;
     }
 }
 body {
