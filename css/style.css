@@ -8,8 +8,13 @@
     box-sizing: border-box;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+    zoom
 }
-
+@media (min-width:1920px){
+    body{
+        transform: scaleX(300%) scaleY(300%);
+    }
+}
 body {
     background: url("../images/bg.jpg");
     background-repeat: no-repeat;
