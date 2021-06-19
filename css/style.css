@@ -12,7 +12,7 @@
 }
 @media (min-width:1920px){
     body{
-        transform: scaleX(.333333) scaleY(.333333);
+        transform: scaleX(1) scaleY(.333333);
         zoom: 300%;
     }
 }
