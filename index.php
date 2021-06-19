@@ -264,7 +264,7 @@
             
             
             document.addEventListener("DOMContentLoaded", function(event){
-                var width = document.getElementById('content').offsetWidth;
+                var width = document.body.offsetWidth;
                 document.head.append('<style type="text/css"></style>');
                 var viewPortElement = document.head.children(':last');
                 viewPortElement.html('@viewport{width:' + width + 'px}');
