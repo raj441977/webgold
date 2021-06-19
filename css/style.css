@@ -10,9 +10,14 @@
     scrollbar-width: none; /* Firefox */
     zoom
 }
-@media (min-width:920px){
+@media (min-width:1920px){
     body{
-        transform: scaleX(.5) scaleY(1);
+        transform: scaleX(.333333);
+    }
+}
+@media (min-height:1080px){
+    body{
+        transform: scaleY(.333333);
     }
 }
 body {
