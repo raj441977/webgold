@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="css/style.css" />
 
         <title>GOLDWIN</title>
-        <style type="text/css">@viewport{width:640px;height:360px; zoom:3;}</style>
     </head>
 
     <body>
@@ -254,14 +253,14 @@
                     mybody.msRequestFullscreen();
                 }
             }
-            /*document.addEventListener("DOMContentLoaded", function(event) { 
+            document.addEventListener("DOMContentLoaded", function(event) { 
                 //document.queryselector('body').style.zoom = 300%;
-                //document.body.style.zoom = '3';
+                document.style.zoom = '3';
                 //document.body.style.height = window.screen.height;
                 //document.queryselector('body').style.transform.scaleY = (.333333);
-                document.body.style.zoom = '3';
-                document.body.style.transform.scaleY = '0.333333';
-            });*/
+                //document.body.style.zoom = '3';
+                //document.body.style.transform.scaleY = '0.333333';
+            });
             
             
             
