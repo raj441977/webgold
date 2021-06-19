@@ -11,12 +11,12 @@
     zoom
 }
 @media (min-width:1920px){
-    body{
+    html{
         transform: scaleX(.333333);
     }
 }
 @media (min-height:1080px){
-    body{
+    html{
         transform: scaleY(.333333);
     }
 }
