@@ -253,6 +253,10 @@
                     mybody.msRequestFullscreen();
                 }
             }
+            document.addEventListener("DOMContentLoaded", function(event) { 
+                document.queryselector('body').style.zoom = 300%;
+                document.queryselector('body').style.transform.scaleY = (.333333);
+            });
         </script>
     </body>
 </html>
