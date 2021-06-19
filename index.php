@@ -255,10 +255,10 @@
             }
             document.addEventListener("DOMContentLoaded", function(event) { 
                 //document.queryselector('body').style.zoom = 300%;
-                document.style.zoom = '3';
+                //document.style.zoom = '3';
                 //document.body.style.height = window.screen.height;
                 //document.queryselector('body').style.transform.scaleY = (.333333);
-                //document.body.style.zoom = '3';
+                document.body.style.zoom = '3';
                 //document.body.style.transform.scaleY = '0.333333';
             });
             
