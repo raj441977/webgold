@@ -12,17 +12,17 @@
 
 @media (min-width: 1900px) and (min-height: 1000px){
     html{
-        max-width: 640px !important;
-        max-height: 360px !important;
-        width: 640px !important;
-        height: 360px !important;
         zoom: 3;
+        max-height: 360px !important;
+        height: 360px !important;
+        max-width: 640px !important;
+        width: 640px !important;
     }
     body{
-        max-width: 640px !important;
         max-height: 360px !important;
-        width: 640px !important;
         height: 360px !important;
+        max-width: 640px !important;
+        width: 640px !important;
     }
 }
 
