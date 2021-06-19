@@ -14,7 +14,15 @@
     html{
         max-width: 640px !important;
         max-height: 360px !important;
+        width: 640px !important;
+        height: 360px !important;
         zoom: 3;
+    }
+    body{
+        max-width: 640px !important;
+        max-height: 360px !important;
+        width: 640px !important;
+        height: 360px !important;
     }
 }
 
