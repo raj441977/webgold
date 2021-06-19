@@ -14,6 +14,7 @@
     body{
         /*transform: scaleX(1) scaleY(.333333);*/
         zoom: 300%;
+        height: 100vh;
     }
 }
 body {
