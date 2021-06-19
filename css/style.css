@@ -10,22 +10,6 @@
     scrollbar-width: none; /* Firefox */
 }
 
-@media (min-width: 1900px) and (min-height: 1000px){
-    html{
-        max-height: 360px !important;
-        height: 360px !important;
-        max-width: 640px !important;
-        width: 640px !important;
-    }
-    body{
-        max-height: 360px !important;
-        height: 360px !important;
-        max-width: 640px !important;
-        width: 640px !important;
-        zoom: 3;
-    }
-}
-
 body {
     background: url("../images/bg.jpg");
     background-repeat: no-repeat;
