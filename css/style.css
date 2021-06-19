@@ -10,6 +10,12 @@
     scrollbar-width: none; /* Firefox */
 }
 
+@media (min-width: 1900px) and (min-height: 1000px){
+    max-width: 640px !important;
+    max-width: 360px !important;
+    zoom: 3;
+}
+
 body {
     background: url("../images/bg.jpg");
     background-repeat: no-repeat;
