@@ -10,13 +10,7 @@
     scrollbar-width: none; /* Firefox */
     zoom
 }
-@media (min-width:1920px){
-    body{
-        /*transform: scaleX(1) scaleY(.333333);*/
-        zoom: 300%;
-        height: 100vh;
-    }
-}
+
 body {
     background: url("../images/bg.jpg");
     background-repeat: no-repeat;
