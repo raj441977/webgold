@@ -3,7 +3,7 @@
 <html lang="en" id="mybody">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
         <!-- <meta name="viewport" content="width=1920, initial-scale=1" /> -->
         <link
             rel="stylesheet"
@@ -261,6 +261,14 @@
                 document.body.style.zoom = '3';
                 document.body.style.transform.scaleY = '0.333333';
             });*/
+            
+            
+            document.addEventListener("DOMContentLoaded", function(event){
+                var width = document.getElementById('content').offsetWidth;
+                document.head.append('<style type="text/css"></style>');
+                var viewPortElement = document.head.children(':last');
+                viewPortElement.html('@viewport{width:' + width + 'px}');
+            });
         </script>
     </body>
 </html>
